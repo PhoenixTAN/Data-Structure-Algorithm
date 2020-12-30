@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1552728326 source:d:\leetcode\leetcode problem5 最长回文字符串\main.c
+	<stdio.h>
+	<stdlib.h>
+

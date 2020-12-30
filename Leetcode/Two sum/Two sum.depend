@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1552031735 source:d:\leetcode\two sum\main.c
+	<stdio.h>
+	<stdlib.h>
+
