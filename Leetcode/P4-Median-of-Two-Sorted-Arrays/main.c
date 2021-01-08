@@ -8,7 +8,7 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     int p3 = 0;
     double median = 0.0;
 
-    //只要一个数组结束，另一个数组剩下的元素即可按顺序放下
+    
     while( p1 <= nums1Size - 1 && p2 <= nums2Size - 1 ) {
         if( nums1[p1] < nums2[p2] ) {
             nums3[p3] = nums1[p1];
@@ -42,9 +42,8 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
         printf( "%d ", nums3[i] );
     }
 
-    // 计算中位数
     if( p3 % 2 == 0 ) {
-        //说明有偶数位
+        
         median = ( nums3[p3/2] + nums3[p3/2-1] ) / 2.0;
     }
     else{
