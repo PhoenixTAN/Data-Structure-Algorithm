@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1554001365 source:d:\leetcode\整数反转\main.c
-	<stdio.h>
-	<stdlib.h>
-	<math.h>
-
